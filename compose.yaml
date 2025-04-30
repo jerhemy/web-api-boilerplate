@@ -1,0 +1,7 @@
+﻿services:
+  webapi.service:
+    image: webapi.service
+    build:
+      context: .
+      dockerfile: WebAPI.Service/Dockerfile
+
